@@ -260,6 +260,38 @@ body {
         top: 380px;
     }
 }
+@media (max-width: 1200px) {
+    #token {
+        padding: 30px 0;
+    }
+    #token .container {
+        max-width: 800px;
+    }
+    .token-img {
+        max-width: 300px;
+    }
+    .card-1 {
+        left: 0;
+    }
+    .card-2 {
+        top: 150px;
+    }
+    .card-3 {
+        top: 290px;
+        left: 40px;
+    }
+    .card-4 {
+        top: 270px;
+        left: 60%;
+    }
+    .card-5 {
+        right: -20px;
+    }
+    .card-6 {
+        right: -40px;
+        top: 180px;
+    }
+}
 @media (max-width: 884.99px) {
     .navbar-mobile {
         display: block;
@@ -316,6 +348,9 @@ body {
     }
     .tran-card-single {
         margin: 15px auto;
+    }
+    .partner-img {
+        max-width: 70%;
     }
 }
 /* Repsonsive end */
