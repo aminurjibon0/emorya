@@ -244,7 +244,23 @@ body {
 }
 /* partner end */
 /* Repsonsive start */
-@media (max-width: 767.99px) {
+@media (max-width: 1280px) {
+    .token-img {
+        max-width: 450px;
+    }
+    .card-1 {
+    }
+    .card-2 {
+        top: 180px;
+    }
+    .card-3 {
+        top: 340px;
+    }
+    .card-4 {
+        top: 380px;
+    }
+}
+@media (max-width: 884.99px) {
     .navbar-mobile {
         display: block;
     }
@@ -258,7 +274,8 @@ body {
         margin-bottom: 50px;
     }
     .hero-content h1{
-        font-size: 36px;
+        font-size: 30px;
+        max-width: 280px;
     }
     .what-img {
         margin: 0;
@@ -270,11 +287,13 @@ body {
     }
     .token-img {
         position: static;
-        margin-bottom: 30px;
+        margin: 0 auto 30px;
     }
     .card-single {
+        max-width: 400px;
         position: static;
         padding: 10px 0;
+        margin: 0 auto 20px;
     }
     #token {
         height: auto;
