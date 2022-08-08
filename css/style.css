@@ -378,6 +378,9 @@ body {
         width: 95%;
         height: 1000px;
     }
+    .tran-card-single{
+        background: rgba(0, 0, 0, .5)
+    }
 }
 @media (max-width: 575.99px) {
     #transaction::before {
@@ -386,7 +389,7 @@ body {
     }
     #transaction::after {
         width: 99%;
-        height: 1100px;
+        height: 1040px;
     }
 }
 /* Repsonsive end */
